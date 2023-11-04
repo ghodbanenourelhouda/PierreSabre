@@ -18,7 +18,7 @@ public class HistoireTP4 {
 		commercant.seFaireExtorquer();
 		commercant.recevoir(15);
 		commercant.boire();
-		Yakuza yakuza = new Yakuza ("Yaku Le Noir ", "whisky", 30 , "Clan des Noirs" , 0);
+		Yakuza yakuza = new Yakuza ("Yaku Le Noir ", "whisky", 30 , "Warsong" , 0);
 		yakuza.direBonjour();
 		Commercant victime = new Commercant ("Marco" , "thé" , 15); 
 		yakuza.extorquer(victime);
@@ -26,6 +26,11 @@ public class HistoireTP4 {
 		ronin.direBonjour();
 		Commercant beneficiaire = new Commercant ("Marco" , "thé" , 15);
 		ronin.donner(beneficiaire);
+		ronin.provoquer(yakuza);
+		
+		
+		
+		
 		
 	
 

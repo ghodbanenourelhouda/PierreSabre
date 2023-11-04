@@ -73,5 +73,4 @@ public void perdreArgent(int perte) {
 
 
 
-
 }
