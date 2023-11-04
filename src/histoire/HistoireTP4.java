@@ -18,6 +18,11 @@ public class HistoireTP4 {
 		commercant.seFaireExtorquer();
 		commercant.recevoir(15);
 		commercant.boire();
+		Yakuza yakuza = new Yakuza ("Yaku Le Noir ", "whisky", 30 , "Clan des Noirs" , 0);
+		yakuza.direBonjour();
+		Commercant victime = new Commercant ("Marco" , "thé" , 15); 
+		yakuza.extorquer(victime);
+		
 	
 
 	}
