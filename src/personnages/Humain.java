@@ -4,7 +4,7 @@ public class Humain {
 	
 	private String nom;
 	private String boisson ; 
-	private int argent ;
+	protected int argent ;
 	
 
 public String getNom() {
@@ -19,7 +19,7 @@ public int getArgent() {
 	return argent ;	
 }
 
-private void parler (String texte) {
+protected void parler (String texte) {
 	System.out.println (texte);
 }
 

@@ -13,6 +13,11 @@ public class HistoireTP4 {
 		humain.acheter("un jeu" , 2);
 		humain.perdreArgent(2);
 		humain.acheter("un kimono", 50);
+		Commercant commercant = new Commercant ("Marco", "thé" ,20);
+		commercant.direBonjour();
+		commercant.seFaireExtorquer();
+		commercant.recevoir(15);
+		commercant.boire();
 	
 
 	}
