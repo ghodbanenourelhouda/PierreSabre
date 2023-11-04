@@ -22,6 +22,10 @@ public class HistoireTP4 {
 		yakuza.direBonjour();
 		Commercant victime = new Commercant ("Marco" , "thé" , 15); 
 		yakuza.extorquer(victime);
+		Ronin ronin = new Ronin ("Roro", "shochu", 60 , 1);
+		ronin.direBonjour();
+		Commercant beneficiaire = new Commercant ("Marco" , "thé" , 15);
+		ronin.donner(beneficiaire);
 		
 	
 
